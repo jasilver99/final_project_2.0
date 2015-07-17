@@ -67,7 +67,7 @@ class Message
     end
 
     if include_link == "include_link"
-      link = "\nSent with FMS http://goo.gl/vkhnkk"
+      link = "\nSent with FMS https://goo.gl/ML7AzI"
     else
       link = ""
     end
