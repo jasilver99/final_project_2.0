@@ -1,22 +1,41 @@
 body {
-  background-color:#AAE2FF;
+  background-color:#AAAAAA;
   margin:0;
   color:#39392E;
   font-family: 'Open Sans', sans-serif;
+  text-align:center;
 }
 form {
   color:#39392E;
   font-family: 'PT Sans', sans-serif;
 }
 
-.category {
+.center {
+  text-align:center;
+}
+
+/* .category {
   background-color:#DDDDDD;
+} */
+
+input.selected {
+  background-color:#DDDDDD;
+  -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 1s;
 }
 
 input.selected:focus {
-  border: 1px solid rgb(86, 180, 239);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
-  background-color:red;
+  background-color:white; 
+  
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:black;
+  text-align:center;
+}
+
+a {
+  text-decoration:none;
 }
 
 input.submit:hover {
@@ -92,4 +111,67 @@ input.submit:hover {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
+
+
+#talent_title {
+  background-color:#DDDDDD;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+#talent {
+background-color:#DDDDDD;
+  margin-top: -20px;
+  width:300px;
+/*   margin: auto; */
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 3px;
+
+ 
+}
+
+#looks_title {
+  background-color:#DDDDDD;
+  width:300px;
+/*   margin: auto; */
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 3px;
+
+}
+
+#looks {
+background-color:#DDDDDD;
+  width:300px;
+  margin-top: -20px;
+/*   margin: auto; */  
+  margin-left: auto;
+  margin-right: auto;
+    border-radius: 3px;
+
+}
+#personality_title {
+  background-color:#DDDDDD;
+  width:300px;
+/*   margin: auto; */
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 3px;
+
+}
+
+#personality{
+background-color:#DDDDDD;
+  width:300px;
+  margin-top: -20px;
+/*   margin: auto; */
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 3px;
+
+}
+
 

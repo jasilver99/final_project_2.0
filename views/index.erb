@@ -16,8 +16,8 @@
 
   <form action="/results" method="post">
   
-  <input type="text" name="name" placeholder="Their name">
-  <input type="tel" name= "number" pattern="\d{10}" title="Proper Format: 5555555555" placeholder= "Phone Number")> 
+  <input class = "selected" type="text" name="name" placeholder="Their name">
+  <input class = "selected" type="tel" name= "number" pattern="\d{10}" title="Proper Format: 5555555555" placeholder= "Phone Number")> 
  
 
  
@@ -32,7 +32,7 @@
   <input type="radio" name="compliment" value="Smile">Smile
 </div>
     
-<!-- <div> -->
+<!-- <div class = "category"> -->
   <h3 id="talent_title">Talent</h3>
       <div id="talent">
     <input type="radio" name="compliment" value="Sports">Sports
@@ -45,19 +45,19 @@
     <div  id="personality">
     <input type="radio" name="compliment" value="Charisma">Charisma
     <input type="radio" name="compliment" value="Optimism">Optimism
-    <input type="radio" name="compliment" value="Enthusiasm">Enthusiasm
-    <input type="radio" name="compliment" value="Humor">Humor
+    <input type="radio" name="compliment" value="Enthusiasm">Enthusiasm<br>
+      <input type="radio" name="compliment" value="Humor">Humor
     <input type="radio" name="compliment" value="Trustworthiness">Trustworthiness
   </div>
 <!-- </div> -->
   <br>
     <h3>Please write your name.</h3>
-    <input type="text" name="name2" placeholder="Your name">
+    <input class = "selected" type="text" name="name2" placeholder="Your name">
     <h3>If you'd like, leave your phone number so your recepient can reach you.</h3>
-     <input type="tel" name= "callback_number" pattern="\d{10}" title="Proper Format: 5555555555" placeholder= "Phone Number")> 
-    <br>
+     <input class = "selected" type="tel" name= "callback_number" pattern="\d{10}" title="Proper Format: 5555555555" placeholder= "Phone Number")> 
+    <br><br>
     <input type="checkbox" name="include_link" value="include_link" checked><span>Include a link to FMS to spread the love!</span>
-    <br>
+    <br><br>
     <input class="submit hvr-glow hvr-shutter-in-horizontal" type="submit" value="Submit">
 </form>
 
